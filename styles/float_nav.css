@@ -1,0 +1,51 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.nav li {
+	float: left;
+	list-style: none;
+
+}
+
+.nav a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px dotted black;
+	border-radius: 10px;
+	margin: 10px 10px 150px 10px;
+	color: #333;
+
+}
+
+img.logo {
+	position: absolute;
+	top: 1em;
+	right: 4em; 
+}
+
+article {
+	clear: both;
+	text-align: justify;
+	
+}
+
+@keyframes cat {
+	from { 
+		transform: rotate(0)  scale(.5);
+		right: 120%;
+	 }
+	 50% {
+		transform: rotate(720deg) scale(1);
+		right: 4em;
+	}
+	to {
+		transform: rotate(0) scale(.5);
+	}
+}
+
+img.logo {
+	animation: cat 5s;
+}

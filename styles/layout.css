@@ -1,0 +1,78 @@
+section, header, article, nav {
+	display: block;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin: 1em 10%;
+	
+	max-width: 100em;
+}
+
+/*header {
+	background: url(../images/bg.jpg) fixed 100% no-repeat;
+
+}*/
+
+ul.nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: right;
+}
+
+
+.nav li {
+	display: inline;
+	/*border: 1px dotted black;*/
+}
+
+.nav a {
+	border: 1px dotted black;
+	text-decoration: none;
+	color: #333;
+	padding: 10px;
+	margin: 20px 0px 120px 10px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+@keyframes cat {
+	from {
+		transform: rotate(0) scale(0.3);
+		left: 120%;
+	}
+	50% {
+		transform: rotate(-360deg) scale(1);
+		left: 6em;
+	}
+	to {
+		transform: rotate(0) scale(.5);
+	}
+}
+
+
+img.logo{
+	position: absolute;
+	top: 1em;
+	left: 6em;
+	animation: cat 5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
