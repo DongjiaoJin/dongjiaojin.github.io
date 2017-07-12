@@ -1,0 +1,38 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.nav li {
+	float: left;
+	list-style: none;
+
+}
+
+.nav a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px dotted black;
+	border-radius: 10px;
+	margin: 10px 10px 150px 10px;
+	color: #333;
+
+}
+
+img.logo {
+	position: absolute;
+	top: 1em;
+	right: 4em; 
+}
+
+
+section a {
+	text-decoration: none;
+	font-size: 1.3em;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
